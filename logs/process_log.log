@@ -1,0 +1,173 @@
+[04:51:46] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 3...
+[04:51:46] [functions] [update_exchange_rate:11] INFO: Starting to get 202203 exchange rate data from Yahoo Finance...
+[04:51:46] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[04:51:46] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[04:51:46] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[04:51:46] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[04:51:49] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[04:51:50] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[04:51:53] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[04:52:02] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[04:52:03] [functions] [process_sap_excel_varyearperiod:81] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202203.xlsm
+[04:52:03] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202203.xlsm
+[04:52:03] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[04:52:03] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[04:52:03] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[04:52:03] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[04:52:03] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[04:52:03] [functions] [loadsalestable:184] INFO: Closed connection
+[04:52:03] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[04:52:03] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[04:52:03] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[04:52:03] [functions] [get_sap_connection:28] INFO: SAP connection found
+[04:52:03] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[04:52:07] [functions] [f08extract:86] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202203.txt exported...
+[04:52:07] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202203.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[04:52:07] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202203.txt successfully loaded into database.
+[04:52:07] [functions] [<module>:86] INFO: All sections for year 2022 and period 3 processed successfully.
+[04:52:07] [functions] [create_blank_text_file:21] INFO: Blank text file created at: C:\Users\joel_\joelting\YouTube Demo - General\Power BI Refresh\Power BI Data Project Refresh\PowerBI Refresh 20240727165145.txt
+[05:09:17] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 4...
+[05:09:17] [functions] [update_exchange_rate:11] INFO: Starting to get 202204 exchange rate data from Yahoo Finance...
+[05:09:17] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:09:17] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:09:17] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[05:09:17] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[05:09:21] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[05:09:23] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[05:09:26] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[05:09:35] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[05:09:35] [functions] [process_sap_excel_varyearperiod:81] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:09:35] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:09:35] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[05:09:35] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[05:09:35] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[05:09:35] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[05:09:36] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[05:09:36] [functions] [loadsalestable:184] INFO: Closed connection
+[05:09:36] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[05:09:36] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[05:09:36] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[05:09:36] [functions] [get_sap_connection:28] INFO: SAP connection found
+[05:09:36] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[05:09:40] [functions] [f08extract:86] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt exported...
+[05:09:40] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[05:09:40] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt successfully loaded into database.
+[05:09:40] [functions] [<module>:86] INFO: All sections for year 2022 and period 4 processed successfully.
+[05:09:40] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 5...
+[05:09:40] [functions] [update_exchange_rate:11] INFO: Starting to get 202205 exchange rate data from Yahoo Finance...
+[05:09:40] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:09:40] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:09:40] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[05:09:40] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[05:09:42] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[05:09:44] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[05:09:46] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[05:09:54] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[05:09:55] [functions] [process_sap_excel_varyearperiod:81] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202205.xlsm
+[05:09:55] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202205.xlsm
+[05:09:55] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[05:09:55] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[05:09:55] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[05:09:55] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[05:09:55] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[05:09:55] [functions] [loadsalestable:184] INFO: Closed connection
+[05:09:55] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[05:09:55] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[05:09:55] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[05:09:55] [functions] [get_sap_connection:28] INFO: SAP connection found
+[05:09:55] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[05:09:59] [functions] [f08extract:86] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202205.txt exported...
+[05:09:59] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202205.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[05:09:59] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202205.txt successfully loaded into database.
+[05:09:59] [functions] [<module>:86] INFO: All sections for year 2022 and period 5 processed successfully.
+[05:09:59] [functions] [create_blank_text_file:21] INFO: Blank text file created at: C:\Users\joel_\joelting\YouTube Demo - General\Power BI Refresh\Power BI Data Project Refresh\PowerBI Refresh 20240727170916.txt
+[05:20:53] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 4...
+[05:20:53] [functions] [update_exchange_rate:11] INFO: Starting to get 202204 exchange rate data from Yahoo Finance...
+[05:20:54] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:20:54] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:20:54] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[05:20:54] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[05:20:56] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[05:20:57] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[05:21:00] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[05:21:09] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[05:21:09] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm' removed.
+[05:21:09] [functions] [process_sap_excel_varyearperiod:81] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:21:09] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:21:10] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[05:21:10] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[05:21:10] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[05:21:10] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[05:21:10] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[05:21:10] [functions] [loadsalestable:184] INFO: Closed connection
+[05:21:10] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[05:21:10] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[05:21:10] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[05:21:10] [functions] [get_sap_connection:32] INFO: Could not find SAP connection, attempting to start a new one
+[05:21:15] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[05:21:18] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt' removed.
+[05:21:19] [functions] [f08extract:86] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt exported...
+[05:21:19] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[05:21:19] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt successfully loaded into database.
+[05:21:19] [functions] [<module>:86] INFO: All sections for year 2022 and period 4 processed successfully.
+[05:21:19] [functions] [create_blank_text_file:21] INFO: Blank text file created at: C:\Users\joel_\joelting\YouTube Demo - General\Power BI Refresh\Power BI Data Project Refresh\PowerBI Refresh 20240727172052.txt
+[05:27:50] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 4...
+[05:27:50] [functions] [update_exchange_rate:11] INFO: Starting to get 202204 exchange rate data from Yahoo Finance...
+[05:27:50] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:27:50] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:27:50] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[05:27:50] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[05:27:55] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[05:27:57] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[05:28:01] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[05:28:11] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[05:28:11] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm' removed.
+[05:28:12] [functions] [process_sap_excel_varyearperiod:82] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:28:12] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:28:13] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[05:28:13] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[05:28:13] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[05:28:13] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[05:28:13] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[05:28:13] [functions] [loadsalestable:184] INFO: Closed connection
+[05:28:13] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[05:28:13] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[05:28:13] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[05:28:13] [functions] [get_sap_connection:32] INFO: Could not find SAP connection, attempting to start a new one
+[05:28:17] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[05:28:21] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt' removed.
+[05:28:21] [functions] [f08extract:85] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt exported...
+[05:28:21] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[05:28:21] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt successfully loaded into database.
+[05:28:22] [functions] [<module>:86] INFO: All sections for year 2022 and period 4 processed successfully.
+[05:28:22] [functions] [create_blank_text_file:21] INFO: Blank text file created at: C:\Users\joel_\joelting\YouTube Demo - General\Power BI Refresh\Power BI Data Project Refresh\PowerBI Refresh 20240727172748.txt
+[05:40:44] [functions] [<module>:82] INFO: Processing all sections for year 2022 and period 4...
+[05:40:44] [functions] [update_exchange_rate:11] INFO: Starting to get 202204 exchange rate data from Yahoo Finance...
+[05:40:44] [functions] [update_exchange_rate:58] INFO: Data extracted from Yahoo Finance. Loading data into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:40:44] [functions] [update_exchange_rate:87] INFO: Data loaded into database C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db
+[05:40:44] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo'....
+[05:40:44] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo' already exists.
+[05:40:49] [functions] [process_sap_excel_varyearperiod:39] INFO: AFO Add-in enabled.
+[05:40:51] [functions] [process_sap_excel_varyearperiod:46] INFO: AFO workbook C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo.xlsm opened.
+[05:40:54] [functions] [process_sap_excel_varyearperiod:53] INFO: Data Refreshing...
+[05:41:03] [functions] [process_sap_excel_varyearperiod:67] INFO: Data Refresh Completed...
+[05:41:03] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm' removed.
+[05:41:04] [functions] [process_sap_excel_varyearperiod:82] INFO: AFO workbook file refreshed and saved as C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:41:04] [functions] [loadsalestable:130] INFO: Excel file path: C:\Users\joel_\Documents\Python Coding\Data flow\templates\SalesDemo\SalesDemo 202204.xlsm
+[05:41:04] [functions] [loadsalestable:134] INFO: Excel file read into dataframe
+[05:41:04] [functions] [loadsalestable:142] INFO: Connected to SQLite database
+[05:41:04] [functions] [loadsalestable:146] INFO: Table name: SalesTable
+[05:41:04] [functions] [loadsalestable:172] INFO: Executed DELETE statement for {placeholder_1} and {placeholder_2}
+[05:41:04] [functions] [loadsalestable:176] INFO: Inserted dataframe into SQL Database
+[05:41:04] [functions] [loadsalestable:184] INFO: Closed connection
+[05:41:04] [functions] [check_and_create_directory:53] INFO: Creating Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb'....
+[05:41:04] [functions] [check_and_create_directory:57] INFO: Directory 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb' already exists.
+[05:41:04] [functions] [get_sap_connection:23] INFO: Connecting to SAP GUI
+[05:41:04] [functions] [get_sap_connection:28] INFO: SAP connection found
+[05:41:04] [functions] [f08extract:68] INFO: Extracting Trial Balance from F.08
+[05:41:07] [functions] [remove_file_if_exists:41] INFO: File 'C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt' removed.
+[05:41:08] [functions] [f08extract:85] INFO: C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt exported...
+[05:41:08] [functions] [tb_load:16] INFO: Starting to load TB data from C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt into C:\Users\joel_\joelting\YouTube Demo - General\SQLite Database\FinanceDB.db...
+[05:41:08] [functions] [tb_load:117] INFO: Trial Balance C:\Users\joel_\Documents\Python Coding\Data flow\sapexport\tb\TB 202204.txt successfully loaded into database.
+[05:41:08] [functions] [<module>:86] INFO: All sections for year 2022 and period 4 processed successfully.
+[05:41:08] [functions] [create_blank_text_file:21] INFO: Blank text file created at: C:\Users\joel_\joelting\YouTube Demo - General\Power BI Refresh\Power BI Data Project Refresh\PowerBI Refresh 20240727174043.txt

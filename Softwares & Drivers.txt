@@ -1,0 +1,11 @@
+Python
+https://www.python.org/downloads/
+
+SQLite ODBC Driver
+https://www.ch-werner.de/sqliteodbc/
+
+SQLite Studio
+https://sqlitestudio.pl/
+
+Visual Studio Code
+https://code.visualstudio.com/

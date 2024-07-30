@@ -1,0 +1,6 @@
+coloredlogs==15.0.1
+numpy==2.0.1
+pandas==2.2.2
+pykeepass==4.1.0
+pywin32==306
+yfinance==0.2.40
